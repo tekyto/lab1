@@ -15,6 +15,7 @@ navigator.mediaDevices.getUserMedia(constraints)
 .then(on_cam_success)
 .catch(on_cam_error);
 //--------------
+<p ontouchstart="capteaza"/p>
 function capteaza()
 {
 	var c=document.getElementById("canvas");
@@ -22,7 +23,7 @@ function capteaza()
 	c.height=video.height;
 	var ctx=c.getContext("2d");
 	ctx.drawImage(video,0,0,640,480);
-	<p ontouchstart="capteaza"/p>
+	
 	
 }
 //-------------------
