@@ -23,6 +23,7 @@ function capteaza()
 	var ctx=c.getContext("2d");
 	ctx.drawImage(video,0,0,640,480);
 	
-	
-}
+	}
+video.addEventListener("touchstart",capteaza);
+</script>
 //-------------------
