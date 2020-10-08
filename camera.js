@@ -15,7 +15,6 @@ navigator.mediaDevices.getUserMedia(constraints)
 .then(on_cam_success)
 .catch(on_cam_error);
 //--------------
-<p onclickstart="capteaza()"/p>
 function capteaza()
 {
 	var c=document.getElementById("canvas");
