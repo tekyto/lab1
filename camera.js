@@ -22,7 +22,7 @@ function capteaza()
 	c.height=video.height;
 	var ctx=c.getContext("2d");
 	ctx.drawImage(video,0,0,640,480);
-	object.ontouchend = capteaza;
+	<p ontouchstart="capteaza"/p>
 	
 }
 //-------------------
